@@ -1,2 +1,1 @@
-# VISION
-THE GUIDE
+# VISION -The Guide
