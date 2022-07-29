@@ -3,3 +3,8 @@
 #include<HardwareSerial.h>
 #include<TinyGPS++.h>
 #include <BlynkSimpleEsp32.h>
+WiFiServer server(80);
+HardwareSerial SerialGPS(1);
+TinyGPSPlus gps;
+const char* ssid="WIFI_NAME";
+const char* pass="WIFI_PASS";
